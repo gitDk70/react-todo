@@ -1,0 +1,35 @@
+.items-container {
+    background-color: #efb7ba;
+    padding: 1rem;
+    border-bottom: 1px solid lightslategray;
+}
+
+.del-button {
+    background-color: darkred;
+    color: wheat;
+    border: none;
+    padding: .2rem .5rem;
+    border-radius: 50%;
+    float: right;
+    font-size: 1.15rem;
+}
+form {
+    display: flex;
+}
+.btn {
+    flex: 1;
+    display: inline-block;
+    border: none;
+    background: #555;
+    color: #fff;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+.btn:hover {
+    background: #666;
+}
+.text-input {
+    flex: 10;
+    padding: 1 rem;
+}
