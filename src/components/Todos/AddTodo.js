@@ -14,7 +14,8 @@ onSubmit = (e) => {
   this.props.addTodo(this.state.title);
   this.setState({ title: ''});
 }
-
+todo = () =>{
+}
 render() {
         return (
             <form onSubmit={this.onSubmit}>
